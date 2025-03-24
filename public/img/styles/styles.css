@@ -61,22 +61,27 @@ header {
 .packageText{
     width: 70%;
     color: white;
+    margin-right: 8vh;
+    display: inline;
 }
 
 .textPack{
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 7vh;
+    font-size: 5vh;
     margin-bottom: 0;
     margin-top: 4vh;
-    margin-left: 30vh;
+    margin-left: 16vh;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
 }
 .textPack1{
     flex-wrap: wrap;
-    justify-content: center;
-    font-size: 4vh;
+    display: inline;
+    font-size: 3.4vh;
     margin-top: 1vh;
-    margin-left: 30vh;
+    margin-left: 16vh;
+    letter-spacing: -1px;
 }
 .package{
     display: flex;
@@ -119,7 +124,7 @@ header {
 .divEcl1, .divEvo1{
     width: 50%;
     padding-right: 3%;
-    font-size: 3vh;
+    font-size: 2.5vh;
     margin-right: 10%;
 }
 .logobeige{
