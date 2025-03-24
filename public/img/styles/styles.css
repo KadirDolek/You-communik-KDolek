@@ -1,15 +1,34 @@
 body{
-    margin-top: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0;
 }
 header {
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%; 
     gap: 15px;
     background-color: black; 
+}
+
+.iconH1,.iconH2,.iconH3,.iconH4,.iconH4,.iconH6,.iconH5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.imgH1,.imgH2,.imgH3,.imgH4,.imgH5,.imgH6{
+    height: 6vh;
+    width: 3vw;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.pHead{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.imgH5{
+    margin-left: 1vw;
 }
 .iconDiv{
    display: flex;
@@ -20,52 +39,19 @@ header {
    gap: 25px;
 }
 
-.logoHeader, .iconHeader {
+.logoHeader{
     display: flex; 
     flex-wrap: wrap; 
     gap: 35px;
+    flex-grow: 1;
 }
 .logoH{
     height: 35px;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 8px;
+    justify-content: start;
 }
-.nomIcon6{
-    position: relative;
-    transform: translateX(-6px)
-}
-.iconH6{
-    height: 35px;
-    position: relative;
-    transform: translateY(10px) translateX(35px);
-}
-.iconH5{
-    height: 35px;
-    position: relative;
-    transform: translateY(10px) translateX(28px)
-}
-.iconH4{
-    height: 35px;
-    position: relative;
-    transform: translateY(10px) translateX(15px);
-}
-.iconH3{
-    height: 35px;
-    position: relative;
-    transform: translateX(23px) translateY(10px);
-}
-.iconH2{
-    height: 35px;
-    position: relative;
-    transform: translateY(10px) translateX(24px);
-}
-.iconH1{
-    height: 35px;
-    position: relative;
-    transform: translateY(10px) translateX(27px);
-}
-
 .sectionBleu{
-    height: 10vh;
+    height: 20vh;
     background-color: rgb(51,77,92);
 }
