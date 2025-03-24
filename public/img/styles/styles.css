@@ -65,12 +65,13 @@ header {
 .textPack{
     font-size: 7vh;
     margin-bottom: 0;
+    margin-top: 4vh;
 }
 .textPack1{
     justify-self: start;
     margin-left: 17.5vw;
     font-size: 5vh;
-    margin-top: 2vh;
+    margin-top: 0.5vh;
 }
 .package{
     display: flex;
@@ -78,7 +79,7 @@ header {
     align-items: center;
     margin-left: 5vw;
 }
-.Eclosion{
+.Eclosion, .Evolution, .Envol{
     height: 50vh;
     background-color: rgb(203, 113, 2);
     display: flex;
@@ -99,7 +100,7 @@ header {
     margin-left: 40%;
     margin-right: 40%;
 }
-.imgEclosion{
+.imgEclosion, .imgEvolution{
     height: 30vh;
     margin-top: -2%;
 }
@@ -107,13 +108,14 @@ header {
     display: flex;
     justify-content: space-around;
 }
-.divEcl{
+.divEcl, .divEvo{
     width: 30%;
 }
-.divEcl1{
+.divEcl1, .divEvo1{
     width: 50%;
     padding-right: 3%;
     font-size: 3vh;
+    margin-right: 10%;
 }
 .logobeige{
     height: 20vh;
@@ -121,8 +123,14 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+.logobeige1{
+    height: 20vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
 .beigelogo1, .beigelogo2,.beigelogo3,.beigelogo4{
-    height: 10vh;
+    height: 12vh;
     margin-top: 2vh;
 }
 .beigeText1{
@@ -137,7 +145,7 @@ header {
 .beigelogo4{
     margin-left: 0.5vw;
 }
-.Eclosion>div>.motEvolution{
+.Evolution>div>.motEvolution{
     margin-left: 40%;
     margin-right: 40%;
 }
@@ -152,6 +160,13 @@ header {
     height: 7vh;
 }
 
+.beigelogosingle, .beigelogovitrine{
+    height: 12vh;
+    margin-top: 2vh;
+}
+.beigelogosingle{
+    margin-left: 0.5vw;
+}
 
 
 
