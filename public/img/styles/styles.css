@@ -16,8 +16,8 @@ header {
     flex-direction: column;
 }
 .imgH1,.imgH2,.imgH3,.imgH4,.imgH5,.imgH6{
-    height: 6vh;
-    width: 3vw;
+    height: 8vh;
+    width: 4vw;
     margin-top: 8px;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ header {
     justify-content: center;
 }
 .imgH5{
-    margin-left: 1vw;
+    margin-left: 0.3vw;
 }
 .logoHeader{
     display: flex; 
@@ -37,19 +37,19 @@ header {
     flex-grow: 1;
 }
 .logoH{
-    height: 35px;
+    height: 10vh;
     align-items: center;
     margin-top: 8px;
     justify-content: start;
 }
 .sectionBleu{
-    height: 20vh;
+    height: 25vh;
     background-color: rgb(51,77,92);
     display: flex;
     margin-bottom: 0;
 }
 .logoPackage{
-    height: 14vh;
+    height: 20vh;
 }
 .package{
     width: 30%;
@@ -63,13 +63,14 @@ header {
     justify-content: center;
 }
 .textPack{
-    font-size: 5vh;
+    font-size: 7vh;
     margin-bottom: 0;
 }
 .textPack1{
     justify-self: start;
-    margin-left: 22vw;
-    font-size: 3vh;
+    margin-left: 17.5vw;
+    font-size: 5vh;
+    margin-top: 2vh;
 }
 .package{
     display: flex;
@@ -78,8 +79,8 @@ header {
     margin-left: 5vw;
 }
 .Eclosion{
-    height: 40vh;
-    background-color: bisque;
+    height: 50vh;
+    background-color: rgb(203, 113, 2);
     display: flex;
     flex-direction: column;
 }
@@ -98,8 +99,8 @@ header {
     margin-right: 38%;
 }
 .imgEclosion{
-    height: 25vh;
-    margin-top: -5%;
+    height: 30vh;
+    margin-top: -2%;
 }
 .textEclosion{
     display: flex;
@@ -111,7 +112,31 @@ header {
 .divEcl1{
     width: 50%;
     padding-right: 7%;
+    font-size: 3vh;
 }
+.logobeige{
+    height: 20vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+}
+.beigelogo1, .beigelogo2,.beigelogo3,.beigelogo4{
+    height: 10vh;
+    margin-top: 2vh;
+}
+.beigeText1{
+    margin-left: 1vw;
+}
+.beigelogo2{
+ margin-left: 1vw;
+}
+.beigelogo3{
+    margin-left: 1vw;
+}
+.beigelogo4{
+    margin-left: 0.5vw;
+}
+
 
 
 
