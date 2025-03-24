@@ -30,15 +30,6 @@ header {
 .imgH5{
     margin-left: 1vw;
 }
-.iconDiv{
-   display: flex;
-   justify-content: flex-end;
-   background-color: black;
-   color: white;
-   font-size: 10px;
-   gap: 25px;
-}
-
 .logoHeader{
     display: flex; 
     flex-wrap: wrap; 
@@ -54,4 +45,34 @@ header {
 .sectionBleu{
     height: 20vh;
     background-color: rgb(51,77,92);
+    display: flex;
+}
+.logoPackage{
+    height: 14vh;
+}
+.package{
+    width: 30%;
+}
+.packageText{
+    width: 70%;
+    color: white;
+}
+.textPack1, .textPack{
+    display: flex;
+    justify-content: center;
+}
+.textPack{
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+.textPack1{
+    justify-self: start;
+    margin-left: 22vw;
+    font-size: 3vh;
+}
+.package{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5vw;
 }
