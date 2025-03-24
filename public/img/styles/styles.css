@@ -92,11 +92,12 @@ header {
     justify-content: center;
     font-size: 5vh;
     color: white;
+    height: 7vh;
 }
 .Eclosion>.divEclosion{
     margin-top: -1%;
-    margin-left: 38%;
-    margin-right: 38%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .imgEclosion{
     height: 30vh;
@@ -111,7 +112,7 @@ header {
 }
 .divEcl1{
     width: 50%;
-    padding-right: 7%;
+    padding-right: 3%;
     font-size: 3vh;
 }
 .logobeige{
@@ -135,6 +136,20 @@ header {
 }
 .beigelogo4{
     margin-left: 0.5vw;
+}
+.Eclosion>div>.motEvolution{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.motEvolution{
+    padding: 1vh;
+    border: solid 1px rgb(51 77 92);
+    display: flex;
+    background-color: rgb(51 77 92);
+    justify-content: center;
+    font-size: 5vh;
+    color: white;
+    height: 7vh;
 }
 
 
