@@ -41,9 +41,8 @@ header {
 }
 /* FLEX GROW PERMET DE POUSSER LES AUTRES ELEMENTS A DROITE  */
 .logoH{
-    height: 10vh;
+    height: 8vh;
     align-items: center;
-    margin-top: 8px;
     justify-content: start;
 }
 .sectionBleu{
@@ -139,7 +138,7 @@ header {
     display: flex;
     justify-content: center;
 }
-.beigelogo1, .beigelogo2,.beigelogo3,.beigelogo4{
+.beigelogo1, .beigelogo2,.beigelogo3,.beigelogo4,.beigelogosingle, .beigelogovitrine{
     height: 12vh;
     margin-top: 2vh;
 }
@@ -168,11 +167,6 @@ header {
     font-size: 5vh;
     color: white;
     height: 7vh;
-}
-
-.beigelogosingle, .beigelogovitrine{
-    height: 12vh;
-    margin-top: 2vh;
 }
 .beigelogosingle{
     margin-left: 0.5vw;
@@ -203,5 +197,13 @@ footer{
     justify-content: end;
     color: white;
 }
+.logoFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgFooter{
+    height: 9vh;
 
+}
 
