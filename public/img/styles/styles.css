@@ -64,3 +64,8 @@ header {
     position: relative;
     transform: translateY(10px) translateX(27px);
 }
+
+.sectionBleu{
+    height: 10vh;
+    background-color: rgb(51,77,92);
+}
