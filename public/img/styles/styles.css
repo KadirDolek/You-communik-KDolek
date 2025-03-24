@@ -178,32 +178,45 @@ header {
 }
 
 footer{
-    height: 25vh;
+    height: 28vh;
     background-color: rgb(57, 58, 59);
+    font-size: 17vh;
 }
 .packFooter{
  margin-top: 5vh;
 }
+.packFooter3{
+    margin-top: 5vh;
+    letter-spacing: -0.2vh;
+}
 .nomFooter{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
     font-size: 3vh;
     color: white;
 }
-
 .cgv{
     display: flex;
     justify-content: end;
     color: white;
+    font-size: 2vh;
+}
+.divFooter{
+    display: flex;
+    gap: 3vh;
+}
+.divFooter3{
+    gap: 3.3vh;
+    display: flex;
+    margin-right: -2vh;
 }
 .logoFooter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .imgFooter{
     height: 9vh;
-
 }
 
