@@ -35,7 +35,7 @@ header {
 .logoHeader{ 
     flex-wrap: wrap; 
     gap: 35px;
-    flex-grow: 1; 
+    flex-grow: 1.8; 
 }
 /* FLEX GROW PERMET DE POUSSER LES AUTRES ELEMENTS A DROITE  */
 .logoH{
