@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    font-family: ubuntu;
+    font-family: "Ubuntu";
 }
 header {
     display: flex; 
@@ -183,7 +183,7 @@ footer{
 .packFooter3{
     margin-top: 5vh;
     letter-spacing: -0.2vh;
-    margin-right: 3.6vh;
+    margin-right: 7vh;
 }
 .nomFooter{
     display: flex;
